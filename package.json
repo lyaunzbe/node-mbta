@@ -1,9 +1,9 @@
 {
   "author": "Benjamin Lyaunzon <lyaunzbe@gmail.com> (http://github.com/lyaunzbe)",
-  "name" : "node-mbta",
-  "description" : "Real Time JSON Feed of MBTA Orange and Red Lines",
-  "version" : "0.1.0",
-  "homepage" : "https://github.com/lyaunzbe/node-mbta",
+  "name": "node-mbta",
+  "description": "Real Time JSON Feed of MBTA Orange and Red Lines",
+  "version": "0.1.0",
+  "homepage": "https://github.com/lyaunzbe/node-mbta",
   "repository": {
     "type": "git",
     "url": "git://github.com/lyaunzbe/node-mbta"
@@ -16,7 +16,8 @@
     "test": "mocha -R spec test/*-test.js"
   },
   "dependencies": {
-    "request": ">= 2.9.203"
+    "request": ">= 2.9.203",
+    "moment": "~1.7.2"
   },
   "devDependencies": {
     "mocha": "x",
